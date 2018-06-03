@@ -1,0 +1,19 @@
+---
+title: Edmondson Park Education and Care
+timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+description: Coming soon...
+gems:
+- jekyll-seo-tag
+permalink: pretty

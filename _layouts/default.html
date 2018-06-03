@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+<body class="{{ page.title | slugify }}">
+  <section id="{{ page.section }}">
+    {{ content }}
+  </section>
+  {% include footer.html %}
+</body>
+</html>
