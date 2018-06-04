@@ -5,7 +5,7 @@ section: comingsoon
 
 # Edmondson Park Education and Care
 
- New early childhood development center opening in Edmondson Park late 2018!
+New early childhood development center opening in Edmondson Park late 2018!
 
 [Register today](mailto:info@ educationandcare.org){: .btn.register}
 
