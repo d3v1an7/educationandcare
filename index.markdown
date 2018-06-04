@@ -7,7 +7,7 @@ section: comingsoon
 
 New early childhood centre opening in Edmondson Park early 2019!
 
-[Register today](mailto:info@educationandcare.org){: .btn.register}
+[Register today](mailto:edpark@educationandcare.org){: .btn.register}
 
 <section id="links">
   <i data-feather="facebook"></i> Coming soon
