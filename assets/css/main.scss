@@ -1,3 +1,7 @@
+---
+---
+@import "icons";
+
 html {
   color: #131313;
   font-size: 20px;
@@ -6,9 +10,6 @@ html {
   font-weight: 400;
   text-align: center;
   background: url(/assets/img/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   padding: 20px;
 }
@@ -37,17 +38,6 @@ a.btn {
   text-decoration: none;
   font-weight: 700;
   color: #F7F7F7;
-}
-
-.feather {
-  width: 24px;
-  height: 24px;
-  stroke: currentColor;
-  stroke-width: 1;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  fill: none;
-  padding-right: 5px;
 }
 
 #links {
