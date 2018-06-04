@@ -14,6 +14,4 @@ defaults:
   values:
     layout: default
 description: Coming soon...
-gems:
-- jekyll-seo-tag
 permalink: pretty
