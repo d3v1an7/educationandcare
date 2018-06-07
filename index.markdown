@@ -12,5 +12,5 @@ New early childhood centre opening in Edmondson Park early 2019!
 <section id="links">
   <i data-feather="facebook"></i> Coming soon
   <span class="spacer"></span>
-  <i data-feather="phone"></i> Coming soon
+  <i data-feather="phone"></i> (02) 9607 9000
 </section>
