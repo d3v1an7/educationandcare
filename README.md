@@ -5,7 +5,7 @@ Education and care website
 ```sh
 git clone git@github.com:d3v1an7/educationandcare.git && cd educationandcare
 bundle update
-jekyll serve
+jekyll serve --livereload
 ```
 
 ## Docs

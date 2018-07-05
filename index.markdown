@@ -3,7 +3,7 @@ title: Edmondson Park Education and Care
 section: comingsoon
 ---
 
-# Edmondson Park Education and Care
+![Edmondson Park Education and Care]({{ site.baseurl }}/assets/img/logo.png)
 
 New early childhood centre opening in Edmondson Park early 2019!
 
