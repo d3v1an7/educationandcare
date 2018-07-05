@@ -5,7 +5,7 @@
 {% seo %}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
 <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
 <script src="https://unpkg.com/feather-icons@4.7.3/dist/feather.min.js"></script>
 <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.js"></script>
 </head>
