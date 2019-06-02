@@ -6,6 +6,7 @@ Education and care website
 # Tools
 npm install gulp-cli -g
 npm install gulp -D
+npm install --save-dev gulp-concat gulp-uglify gulp-imagemin
 
 # Repo
 git clone git@github.com:d3v1an7/educationandcare.git && cd educationandcare
@@ -17,6 +18,7 @@ npm update
 
 # Precommit
 gulp build
+jekyll build
 ```
 
 ## Docs
