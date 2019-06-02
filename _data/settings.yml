@@ -22,7 +22,7 @@ contact_settings:
   send_button_text: 'Send Message'
 
 contact_details:
-  address: '125 Jardine Drive, Edmondson Park NSW'
+  address: '125 Jardine Drive, Edmondson Park NSW 2174'
   address_icon: 'map-pin'
   email: 'edpark@educationandcare.org'
   email_icon: 'mail'
