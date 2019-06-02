@@ -3,9 +3,20 @@ Education and care website
 
 ## Local dev
 ```sh
+# Tools
+npm install gulp-cli -g
+npm install gulp -D
+
+# Repo
 git clone git@github.com:d3v1an7/educationandcare.git && cd educationandcare
+
+# Development
 bundle update
-jekyll serve --livereload
+npm update
+(trap 'kill 0' SIGINT; gulp watch & jekyll serve --livereload)
+
+# Precommit
+gulp build
 ```
 
 ## Docs

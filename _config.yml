@@ -1,17 +1,42 @@
----
-title: Edmondson Park Education and Care
+site: Edmondson Park Education and Care
 timezone: Australia/Sydney
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-description: Coming soon...
+description: We believe in nurturing and protecting our most precious gifts – our children and our planet.
 permalink: pretty
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  tiles:
+    output: false
+    permalink: /tiles/:slug
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ''
+      type: tiles
+    values:
+      layout: default
+markdown: kramdown
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+paginate: 6
+paginate_path: "/blog/page:num/"

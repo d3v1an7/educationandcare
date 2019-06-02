@@ -3,9 +3,10 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 {% seo %}
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
-<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}">
+{% if site.data.settings.font_settings.font_embed %}
+{{ site.data.settings.font_settings.font_embed }}
+{% endif %}
+<link rel="stylesheet" href="/css/style.css">
 <script src="https://unpkg.com/feather-icons@4.7.3/dist/feather.min.js"></script>
 <script src="https://unpkg.com/prefixfree@1.0.0/prefixfree.js"></script>
 </head>
