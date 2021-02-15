@@ -1,0 +1,64 @@
+{
+  "title": "Education and Care",
+  "description": "We believe in nurturing and protecting our most precious gifts – our children and our planet.",
+  "centres": {
+    "edmonson_park": {
+      "tiles": [
+        {
+          "title": "Our Mission",
+          "description": "Our mission is to support and develop children's strengths and potential through a child-centered, emergent, collaborative teaching and learning environment inspired by nature and driven by children and families.",
+          "featured_image": "/images/min/photo-yard-02.jpg"
+        },
+        {
+          "title": "Children are valued",
+          "description": "Children are valued for their ability to do meaningful work, their wonder and curiosities, and their need to play.",
+          "featured_image": "/images/min/photo-play-01.jpg"
+        },
+        {
+          "title": "Families are valued",
+          "description": "Parents and families are valued for their bonds and traditions, their commitment to work, home, community and their dreams for their children.",
+          "featured_image": "/images/min/photo-play-02.jpg"
+        }
+      ],
+      "address": "125 Jardine Drive, Edmondson Park NSW 2174",
+      "email": "edpark@educationandcare.org",
+      "phone": "(02) 9607 9000",
+      "apply": {
+        "action": "https://formspree.io/edpark@educationandcare.org",
+        "confirmation": "/edmondson-park/thanks",
+        "subject": "Edmondson Park Job application submission",
+        "button": "Send Application"
+      },
+      "waitlist": "http://ccs-edmondsonparkeducationandcare.kinderm8.com.au/waitlist-form"
+    },
+    "thirlmere": {
+      "tiles": [
+        {
+          "title": "Build update: 16 Feb",
+          "description": "Our mission is to support and develop children's strengths and potential through a child-centered, emergent, collaborative teaching and learning environment inspired by nature and driven by children and families.",
+          "featured_image": "/images/min/photo-construction-01.jpg"
+        },
+        {
+          "title": "Build update: 2 Jan",
+          "description": "Children are valued for their ability to do meaningful work, their wonder and curiosities, and their need to play.",
+          "featured_image": "/images/min/photo-construction-02.jpg"
+        },
+        {
+          "title": "Build update: 12 Dec",
+          "description": "Parents and families are valued for their bonds and traditions, their commitment to work, home, community and their dreams for their children.",
+          "featured_image": "/images/min/photo-construction-03.jpg"
+        }
+      ],
+      "address": "XYZ, Thirlmere NSW XXXX",
+      "email": "thirlmere@educationandcare.org",
+      "phone": "(02) XXXX XXXX",
+      "apply": {
+        "action": "https://formspree.io/edpark@educationandcare.org",
+        "confirmation": "/thirlmere/thanks",
+        "subject": "Thirlmere Job application submission",
+        "button": "Send Application"
+      },
+      "waitlist": "https://ccs-thirlmereeducationandcare.kinderm8.com.au/waitlist-form"
+    }
+  }
+}

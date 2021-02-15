@@ -1,0 +1,13 @@
+{% for tile in centre.tiles %}
+<article class="post">
+  <div class="post__image-wrap">
+    <div class="post__image" style="background-image: url({{ tile.featured_image }})"></div>
+  </div>
+  <div class="post__content-wrap">
+    <div class="post__content">
+      <h2 class="post__title">{{ tile.title }}</h2>
+      <p class="post__description">{{ tile.description }}</p>
+    </div>
+  </div>
+</article>
+{% endfor %}

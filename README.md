@@ -1,26 +1,13 @@
 # educationandcare
+
 Education and care website
 
-## Local dev
+Built with Eleventy and hosted by Cloudflare Pages.
+
+## Local development
+
 ```sh
-# Tools
-npm install gulp-cli -g
-npm install gulp -D
-npm install --save-dev gulp-concat gulp-uglify gulp-imagemin
-
-# Repo
 git clone git@github.com:d3v1an7/educationandcare.git && cd educationandcare
-
-# Development
-bundle update
-npm update
-(trap 'kill 0' SIGINT; gulp watch & jekyll serve --livereload)
-
-# Precommit
-gulp build
-jekyll build
+npm install
+npm start
 ```
-
-## Docs
-- [Syntax](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Plugins](https://github.com/github/pages-gem)

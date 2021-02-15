@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="wrap">
+    {% if centre %}
+    <div class="footer-contact">
+      <div><i data-feather="map-pin"></i> {{ centre.address }}</div>
+      <div><i data-feather="mail"></i> {{ centre.email }}</div>
+      <div><i data-feather="phone"></i> {{ centre.phone }}</div>
+    </div>
+    {% endif %}
+    <a href="/"><img class="logo" src="/images/min/logo-education-and-care-black.png"><a/>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script>

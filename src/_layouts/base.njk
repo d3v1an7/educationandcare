@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+{% include 'head.html' %}
+<body class="{{ title | urlencode }}">
+  {% include 'header.html' %}
+  <div class="page">
+    <div id="{{ section }}" class="page__content">
+      {% block content %}
+      {{ content | safe }}
+      {% endblock %}
+    </div>
+  </div>
+  {% include 'footer.html' %}
+</body>
+</html>

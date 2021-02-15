@@ -1,5 +1,5 @@
 .DS_Store
-Gemfile.lock
-package-lock.json
+.jekyll-cache
 node_modules
-_site
+_site/
+WIP.md

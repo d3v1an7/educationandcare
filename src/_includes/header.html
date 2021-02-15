@@ -1,0 +1,14 @@
+{% if centre %}
+<header class="header">
+  <div class="header-bar">
+    <div class="header-contact">
+      <i data-feather="map-pin"></i> {{ centre.address }}
+      <i data-feather="mail"></i> {{ centre.email }}
+      <i data-feather="phone"></i> {{ centre.phone }}
+    </div>
+    <div class="header-login">
+      <a href="{{ centre.waitlist }}" class="button">Join Waitlist</a>
+    </div>
+  </div>
+</header>
+{% endif %}
