@@ -9,7 +9,7 @@ featured_image: /images/min/photo-yard-01.jpg
     <div class="hero__overlay"></div>
   </div>
   <div class="wrap">
-    <img class="logo" src="/images/min/logo-education-and-care-white.png">
+    <img class="logo" src="/images/min/logo-thirlmere-white.png">
     <p>We believe in nurturing and protecting our most precious gifts – our children and our planet.</p>
   </div>
 </section>
@@ -29,6 +29,6 @@ featured_image: /images/min/photo-yard-01.jpg
     </div>
   </section>
   <section class="hero map">
-    <div class="hero__image" style="background-image: url(/images/min/map-edmondson-park.png)">To be updated...</div>
+    <div class="hero__image" style="background-image: url(/images/min/map-thirlmere.png)"></div>
   </section>
 </section>

@@ -1,7 +1,5 @@
 # educationandcare
 
-Education and care website
-
 Built with Eleventy and hosted by Cloudflare Pages.
 
 ## Local development
