@@ -16,7 +16,7 @@ featured_image: /images/min/photo-yard-01.jpg
 <section class="single">
   <div class="wrap">
     <article class="single-post" style="text-align: center;">
-      <p>Our Thirlmere centre is currently under construction, due for completion by mid 2021.</p>
+      <p>Our Thirlmere centre is currently under construction and due for completion by mid 2021.</p>
     </article>
   </div>
 </section>
