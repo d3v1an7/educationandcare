@@ -13,11 +13,14 @@ featured_image: /images/min/photo-yard-01.jpg
     <p>We believe in nurturing and protecting our most precious gifts – our children and our planet.</p>
   </div>
 </section>
-<section class="listing">
+<section class="single">
   <div class="wrap">
-    <!-- {% include video.html %} -->
-    {% include tiles.html %}
+    <article class="single-post" style="text-align: center;">
+      <p>Our Thirlmere centre is currently under construction, due for completion by mid 2021.</p>
+    </article>
   </div>
+</section>
+<section class="listing">
   <section class="hero contact">
     <div class="hero__image" style="background-image: url({{ featured_image }})">
       <div class="hero__overlay"></div>
