@@ -1,36 +1,22 @@
 ---
-layout: base
+layout: index
 title: Education and Care
 description: We believe in nurturing and protecting our most precious gifts – our children and our planet.
 featured_image: /images/min/photo-yard-01.jpg
 ---
-<section class="hero">
-  <div class="hero__image" style="background-image: url({{ featured_image }})">
-    <div class="hero__overlay"></div>
-  </div>
-  <div class="wrap">
-    <img class="logo" src="/images/min/logo-education-and-care-white.png">
-    <p>We believe in nurturing and protecting our most precious gifts – our children and our planet.</p>
-  </div>
-</section>
-<section class="single">
-  <div class="wrap">
-    <article class="single-post">
-      <div class="inner">
-        <h3>Edmondson Park</h3>
-        <a href="/edmondson-park" class="button button--large">Visit Edmondson Park Centre</a>
-        <div class="footer-contact">
-          <div><i data-feather="phone"></i> {{ site.centres.edmonson_park.phone }}</div>
+
+<section class="pb-8 md:pb-12 text-center bg-section">
+  <div class="container mx-auto px-4 max-w-xl md:max-w-3xl lg:max-w-6xl">
+    <div class="-mt-16 px-4 py-4 md:px-8 md:py-8 lg:px-14 lg:py-16 relative bg-white shadow-xl">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 divide-y md:divide-none">
+        {%- for centre in site.centres -%}
+        <div class="pt-6 mb-6 md:pt-0 md:mb-0">
+          <h3 class="mb-4 text-xl md:text-2xl lg:text-3xl text-gray-900 font-semibold">{{ centre[1].name }}</h3>
+          <a href="{{ centre[1].link }}" class="block mb-4 py-6 bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg">Visit {{ centre[1].name }} Centre</a>
+          <div class="flex items-center justify-center"><i class="mr-2" data-feather="phone"></i> {{ centre[1].phone }}</div>
         </div>
+        {%- endfor -%}
       </div>
-      <div class="inner">
-        <h3>Thirlmere</h3>
-        <a href="/thirlmere" class="button button--large">Visit Thirlmere Centre</a>
-        <div class="footer-contact">
-          <div><i data-feather="phone"></i> {{ site.centres.thirlmere.phone }}</div>
-        </div>
-      </div>
-      <div style="clear:both"></div>
-    </article>
+    </div>
   </div>
 </section>

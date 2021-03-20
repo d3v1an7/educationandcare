@@ -1,37 +1,14 @@
 ---
-layout: base
+layout: index
 title: Thirlmere Education and Care
 description: We believe in nurturing and protecting our most precious gifts – our children and our planet.
 featured_image: /images/min/photo-yard-01.jpg
 ---
-<section class="hero">
-  <div class="hero__image" style="background-image: url({{ featured_image }})">
-    <div class="hero__overlay"></div>
-  </div>
-  <div class="wrap">
-    <img class="logo" src="/images/min/logo-thirlmere-white.png">
-    <p>We believe in nurturing and protecting our most precious gifts – our children and our planet.</p>
-  </div>
-</section>
-<section class="single">
-  <div class="wrap">
-    <article class="single-post" style="text-align: center;">
-      <p>Our Thirlmere centre is currently under construction and due for completion by mid 2021.</p>
-    </article>
-  </div>
-</section>
-<section class="listing">
-  <section class="hero contact">
-    <div class="hero__image" style="background-image: url({{ featured_image }})">
-      <div class="hero__overlay"></div>
+
+<section class="pb-8 md:pb-12 text-center bg-section">
+  <div class="container mx-auto px-4 max-w-xl md:max-w-3xl lg:max-w-6xl">
+    <div class="-mt-16 px-4 py-4 md:px-8 md:py-8 lg:px-14 lg:py-16 relative bg-white shadow-xl">
+      <p class="text-lg md:text-xl lg:text-2xl">Our Thirlmere centre is currently under construction and due for completion by mid 2021.</p>
     </div>
-    <div class="wrap">
-      <p>Register your interest today!</p>
-      <a class="button" href="{{ centre.waitlist }}">Join Waitlist</a>
-      <a class="button" href="/thirlmere/apply">Apply For Job</a>
-    </div>
-  </section>
-  <section class="hero map">
-    <div class="hero__image" style="background-image: url(/images/min/map-thirlmere.png)"></div>
-  </section>
+  </div>
 </section>
