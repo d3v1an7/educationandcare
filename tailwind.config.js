@@ -20,11 +20,15 @@ module.exports = {
         'section': '#f4f5f6',
         'menu-gray': '#1e1f25',
         'hero-overlay': '#132930',
+        'btn-blue': '#3498db',
+        'btn-blue-hover': '#346edb',
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }

@@ -33,3 +33,7 @@ article:nth-child(odd) .container div {
   @apply md:-ml-10;
   @apply lg:-ml-16;
 }
+
+article:hover .image div {
+  @apply scale-110;
+}

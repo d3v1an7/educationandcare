@@ -12,7 +12,7 @@ featured_image: /images/min/photo-yard-01.jpg
         {%- for centre in site.centres -%}
         <div class="pt-6 mb-6 md:pt-0 md:mb-0">
           <h3 class="mb-4 text-xl md:text-2xl lg:text-3xl text-gray-900 font-semibold">{{ centre[1].name }}</h3>
-          <a href="{{ centre[1].link }}" class="block mb-4 py-6 bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg">Visit {{ centre[1].name }} Centre</a>
+          <a href="{{ centre[1].link }}" class="block mb-4 py-6 bg-btn-blue hover:bg-btn-blue-hover text-gray-100 text-lg">Visit {{ centre[1].name }} Centre</a>
           <div class="flex items-center justify-center"><i class="mr-2" data-feather="phone"></i> {{ centre[1].phone }}</div>
         </div>
         {%- endfor -%}
