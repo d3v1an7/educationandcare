@@ -4,7 +4,7 @@
   "description": "Education and care website",
   "main": "index.js",
   "scripts": {
-    "build": "npm run postcss && npm run imagemin && eleventy",
+    "build": "npm run postcss -- --env production && npm run imagemin && eleventy",
     "imagemin": "imagemin src/images/raw/* --out-dir=src/images/min",
     "postcss": "postcss src/style.css -o src/_includes/css/style.css",
     "start": "npm-run-all --parallel watch:*",

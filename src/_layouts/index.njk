@@ -16,7 +16,7 @@
 </section>
 {{ content | safe}}
 {% if centre %}
-<section class="relative bg-hero-overlay text-center">
+<section class="relative mt-8 md:mt-12 bg-hero-overlay text-center">
   <div class="absolute inset-0 bg-center bg-no-repeat bg-cover" style="background-image: url({{ featured_image }})">
     <div class="absolute inset-0 bg-hero-overlay bg-opacity-80"></div>
   </div>
@@ -24,12 +24,16 @@
     <p class="text-lg md:text-xl lg:text-2xl text-white text-opacity-80">Register your interest today!</p>
     <div class="flex items-center justify-center space-x-2 mt-6">
       <a class="px-3 py-2 bg-blue-500 hover:bg-blue-600 text-gray-100" href="{{ centre.waitlist }}">Join Waitlist</a>
+      {% if centre.apply %}
       <a class="px-3 py-2 bg-blue-500 hover:bg-blue-600 text-gray-100" href="{{ centre.apply.landing }}">Apply For Job</a>
+      {% endif %}
     </div>
   </div>
 </section>
+{% if centre.map %}
 <section class="relative mt-8 md:mt-12 h-80">
   <div class="absolute inset-0 bg-center bg-no-repeat bg-cover" style="background-image: url({{ centre.map }})"></div>
 </section>
+{% endif %}
 {% endif %}
 {% endblock %}

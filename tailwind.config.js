@@ -1,6 +1,5 @@
 module.exports = {
   purge: {
-  enabled: true,
     content: [
       './src/**/*.html',
       './src/**/*.njk',
@@ -11,6 +10,9 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ['Muli','sans-serif'],
+    },
+    minHeight: {
+      'tile': '400px',
     },
     extend: {
       colors: {

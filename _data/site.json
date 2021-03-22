@@ -73,7 +73,11 @@
     "austral": {
       "name": "Austral",
       "link": "/austral",
-      "phone": "Coming soon"
+      "logo": "/images/min/logo-education-and-care-white.png",
+      "address": "80 Ninth Avenue, Austral NSW 2179",
+      "email": "Coming soon",
+      "phone": "Coming soon",
+      "waitlist": "https://ccs-australeducationandcare.kinderm8.com.au/waitlist-form"
     }
   }
 }
