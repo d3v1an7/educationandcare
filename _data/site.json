@@ -2,7 +2,11 @@
   "title": "Education and Care",
   "description": "We believe in nurturing and protecting our most precious gifts – our children and our planet.",
   "centres": {
-    "edmonson_park": {
+    "edmondson_park": {
+      "name": "Edmondson Park",
+      "link": "/edmondson-park",
+      "logo": "/images/min/logo-epec-white.png",
+      "map": "/images/min/map-edmondson-park.png",
       "tiles": [
         {
           "title": "Our Mission",
@@ -25,6 +29,7 @@
       "phone": "(02) 9607 9000",
       "apply": {
         "action": "https://formspree.io/edpark@educationandcare.org",
+        "landing": "/edmondson-park/apply",
         "confirmation": "/edmondson-park/thanks",
         "subject": "Edmondson Park Job application submission",
         "button": "Send Application"
@@ -32,6 +37,10 @@
       "waitlist": "http://ccs-edmondsonparkeducationandcare.kinderm8.com.au/waitlist-form"
     },
     "thirlmere": {
+      "name": "Thirlmere",
+      "link": "/thirlmere",
+      "logo": "/images/min/logo-thirlmere-white.png",
+      "map": "/images/min/map-thirlmere.png",
       "tiles": [
         {
           "title": "Build update: 16 Feb",
@@ -54,11 +63,21 @@
       "phone": "(02) 4683 3300",
       "apply": {
         "action": "https://formspree.io/f/xjvpdojd",
+        "landing": "/thirlmere/apply",
         "confirmation": "/thirlmere/thanks",
         "subject": "Thirlmere Job application submission",
         "button": "Send Application"
       },
       "waitlist": "https://ccs-thirlmereeducationandcare.kinderm8.com.au/waitlist-form"
+    },
+    "austral": {
+      "name": "Austral",
+      "link": "/austral",
+      "logo": "/images/min/logo-education-and-care-white.png",
+      "address": "80 Ninth Avenue, Austral NSW 2179",
+      "email": "Coming soon",
+      "phone": "Coming soon",
+      "waitlist": "https://ccs-australeducationandcare.kinderm8.com.au/waitlist-form"
     }
   }
 }

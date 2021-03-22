@@ -4,12 +4,12 @@
   "description": "Education and care website",
   "main": "index.js",
   "scripts": {
-    "build": "npm run sass && npm run imagemin && eleventy",
+    "build": "npm run postcss -- --env production && npm run imagemin && eleventy",
     "imagemin": "imagemin src/images/raw/* --out-dir=src/images/min",
-    "sass": "sass --style=compressed src/_sass/style.scss src/_includes/css/style.css",
-    "start": "npm-run-all sass --parallel watch:*",
+    "postcss": "postcss src/style.css --no-map --output src/_includes/build/style.css",
+    "start": "npm-run-all --parallel watch:*",
     "watch:eleventy": "eleventy --serve",
-    "watch:sass": "npm run sass -- --watch"
+    "watch:postcss": "npm run postcss -- --watch"
   },
   "keywords": [],
   "author": "Ben White",
@@ -17,11 +17,16 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-cache-assets": "^2.0.3",
-    "npm-run-all": "^4.1.5"
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
     "eleventy-plugin-seo": "^0.5.1",
-    "imagemin-cli": "^6.0.0",
-    "sass": "^1.32.7"
+    "imagemin-cli": "^6.0.0"
   }
 }

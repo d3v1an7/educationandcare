@@ -1,14 +1,14 @@
-<footer class="footer">
-  <div class="wrap">
-    {% if centre %}
-    <div class="footer-contact">
-      <div><i data-feather="map-pin"></i> {{ centre.address }}</div>
-      <div><i data-feather="mail"></i> {{ centre.email }}</div>
-      <div><i data-feather="phone"></i> {{ centre.phone }}</div>
+<footer class="mt-8 md:mt-12 container mx-auto px-4 max-w-xl md:max-w-3xl lg:max-w-6xl">
+  {% if centre %}
+  <div class="flex items-center">
+    <div class="flex items-center space-y-3 lg:space-y-0 lg:space-x-6 mx-auto flex-col lg:flex-row text-center">
+      <div class="flex items-center"><i class="mr-2" data-feather="map-pin"></i> {{ centre.address }}</div>
+      <div class="flex items-center"><i class="mr-2" data-feather="mail"></i> {{ centre.email }}</div>
+      <div class="flex items-center"><i class="mr-2" data-feather="phone"></i> {{ centre.phone }}</div>
     </div>
-    {% endif %}
-    <a href="/"><img class="logo" src="/images/min/logo-education-and-care-black.png"><a/>
   </div>
+  {% endif %}
+  <a href="/"><img class="w-40 md:w-52 pt-8 pb-12 mx-auto" src="/images/min/logo-education-and-care-black.png"></a>
 </footer>
 <script>
   feather.replace()

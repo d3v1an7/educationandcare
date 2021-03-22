@@ -1,5 +1,5 @@
 module.exports = {
   eleventyComputed: {
-    centre: data => data.site.centres.edmonson_park,
+    centre: data => data.site.centres.edmondson_park,
   }
 };

@@ -1,14 +1,14 @@
 {% if centre %}
-<header class="header">
-  <div class="header-bar">
-    <div class="header-contact">
-      <i data-feather="map-pin"></i> {{ centre.address }}
-      <i data-feather="mail"></i> {{ centre.email }}
-      <i data-feather="phone"></i> {{ centre.phone }}
+<nav class="bg-menu-gray">
+  <div class="h-14 mx-5 flex items-center justify-center md:justify-between text-xs">
+    <div class="hidden md:block">
+      <div class="flex items-center text-gray-300 space-x-4">
+        <div class="flex items-center"><i class="mr-2" data-feather="map-pin"></i> {{ centre.address }}</div>
+        <div class="flex items-center"><i class="mr-2" data-feather="mail"></i> {{ centre.email }}</div>
+        <div class="flex items-center"><i class="mr-2" data-feather="phone"></i> {{ centre.phone }}</div>
+      </div>
     </div>
-    <div class="header-login">
-      <a href="{{ centre.waitlist }}" class="button">Join Waitlist</a>
-    </div>
+    <a href="{{ centre.waitlist }}" class="px-2 py-1 bg-btn-blue hover:bg-btn-blue-hover text-gray-100 text-sm">Join Waitlist</a>
   </div>
-</header>
+</nav>
 {% endif %}

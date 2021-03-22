@@ -1,19 +1,17 @@
 {% extends './base.njk' %}
 {% block content %}
-<section class="hero hero--single">
-  <div class="hero__image" style="background-image: url({{ featured_image }})">
-    <div class="hero__overlay"></div>
+<section class="pb-28 relative bg-hero-overlay text-center">
+  <div class="absolute inset-0 bg-center bg-no-repeat bg-cover" style="background-image: url({{ featured_image }})">
+    <div class="absolute inset-0 bg-hero-overlay bg-opacity-80"></div>
   </div>
-  <div class="wrap">
-    <h1>{{ title }}</h1>
-    <p>{{ subtitle }}</p>
+  <div class="relative container mx-auto px-4 max-w-xl md:max-w-3xl lg:max-w-6xl">
+    <h1 class="pt-10 text-white">{{ title }}</h1>
+    <p class="text-lg md:text-xl lg:text-2xl text-white text-opacity-80">{{ subtitle }}</p>
   </div>
 </section>
-<section class="single">
-  <div class="wrap">
-    <article class="single-post">
-      {{ content | safe}}
-    </article>
+<section class="-mt-16 bg-gray-100 pb-28">
+  <div class="relative container mx-auto p-16 max-w-xl md:max-w-3xl lg:max-w-6xl bg-white shadow-xl">
+    {{ content | safe }}
   </div>
 </section>
 {% endblock %}
