@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
-    "eleventy-plugin-seo": "^0.5.1",
+    "eleventy-plugin-seo": "^0.5.2",
     "imagemin-cli": "^6.0.0"
   }
 }
