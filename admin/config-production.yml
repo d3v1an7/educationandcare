@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: d3v1an7/educationandcare
+  branch: main
+  base_url: https://bemm.com.au

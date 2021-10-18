@@ -1,0 +1,157 @@
+# publish_mode: editorial_workflow
+
+site_url: https://educationandcare.org
+media_folder: /src/images
+public_folder: ./src/images
+
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: src/pages
+    create: true
+    delete: false
+    editor:
+      preview: false
+    nested:
+      depth: 10
+      summary: '{{permalink}}'
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    summary: '{{fields.permalink}}'
+    sortable_fields:
+      - permalink
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Permalink
+        name: permalink
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Featured Image
+        name: featured_image
+        widget: image
+      - label: SEO Description
+        name: description
+        widget: string
+  - label: Settings
+    name: settings
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: Centres
+        name: centres
+        file: src/_data/centres.json
+        widget: object
+        fields:
+          - label: Centre
+            name: list
+            label_singular: Item
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: Path
+                name: path
+                widget: relation
+                collection: pages
+                value_field: permalink
+                search_fields:
+                  - title
+              - label: Logo
+                name: logo
+                widget: image
+              - label: Map
+                name: map
+                widget: image
+                required: false
+              - label: Address
+                name: address
+                widget: string
+              - label: Email
+                name: email
+                widget: string
+              - label: Phone
+                name: phone
+                widget: string
+              - label: Waitlist
+                name: waitlist
+                widget: string
+                required: false
+              - label: Info tiles
+                name: tiles
+                label_singular: Item
+                widget: list
+                summary: '{{fields.title}}'
+                fields:
+                  - label: Title
+                    name: title
+                    widget: string
+                  - label: Description
+                    name: description
+                    widget: text
+                  - label: Featured Image
+                    name: featured_image
+                    widget: image
+              - label: Forms
+                name: forms
+                label_singular: Item
+                widget: list
+                summary: '{{fields.button}}'
+                fields:
+                  - label: Action
+                    name: action
+                    widget: string
+                  - label: Landing
+                    name: landing
+                    widget: string
+                  - label: Confirmation
+                    name: confirmation
+                    widget: string
+                  - label: Subject
+                    name: subject
+                    widget: string
+                  - label: Button
+                    name: button
+                    widget: string
+      - label: Redirects
+        name: redirects
+        file: src/_data/redirects.json
+        fields:
+          - label: Redirects
+            label_singular: Item
+            name: redirects
+            widget: list
+            summary: '{{fields.source}} ⭢ {{fields.destination}}'
+            fields:
+              - label: Source
+                name: source
+                widget: string
+              - label: Destination
+                name: destination
+                widget: string
+              - label: Code
+                name: code
+                widget: select
+                options:
+                  - '301'
+                  - '302'
+      - label: SEO & social
+        name: seo
+        file: src/_data/seo.json
+        fields:
+          - label: Site name
+            name: title
+            widget: string
+          - label: Meta description
+            name: description
+            widget: string
+          - label: Social image
+            name: image
+            widget: image
+            required: false

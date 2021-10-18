@@ -1,7 +1,7 @@
 {% for tile in centre.tiles %}
 <article class="flex flex-col md:flex-row mt-8 md:mt-12 bg-gray-100">
   <div class="image relative flex-grow pb-64 md:pb-0 md:order-last overflow-hidden">
-    <div class="absolute inset-0 bg-center bg-no-repeat bg-cover transition-all transform" style="background-image: url({{ tile.featured_image }})"></div>
+    <div class="absolute inset-0 bg-center bg-no-repeat bg-cover transition-all transform" style="background-image: url({% templateImg tile.featured_image 'jpeg' %})"></div>
   </div>
   <div class="container relative p-5 lg:p-8 md:w-1/2">
     <div class="-mt-10 p-6 lg:p-8 md:mt-0 md:-mr-10 lg:-mr-16 md:min-h-tile bg-white shadow-xl">

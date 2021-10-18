@@ -1,9 +1,14 @@
 module.exports = {
   purge: {
     content: [
+      '.eleventy.js',
+      './admin/**/*.html',
+      './admin/**/*.yml',
+      './src/style.css',
       './src/**/*.html',
-      './src/**/*.njk',
+      './src/**/*.json',
       './src/**/*.md',
+      './src/**/*.njk',
     ],
   },
   darkMode: false, // or 'media' or 'class'
