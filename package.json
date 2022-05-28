@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-img": "^0.10.0",
+    "@11ty/eleventy-img": "^1.1.0",
     "@tailwindcss/forms": "^0.3.3",
     "eleventy-plugin-seo": "^0.5.2",
     "eleventy-plugin-tailwindcss": "^0.3.0",
