@@ -73,6 +73,15 @@
       "email": "thirlmere@educationandcare.org"
     },
     {
+      "name": "Marsden Park",
+      "path": "/marsden-park/",
+      "logo": "src/images/logo-education-and-care-white.png",
+      "address": "Coming soon",
+      "email": "Coming soon",
+      "phone": "Coming soon",
+      "waitlist": "http://ccs-marsdenparkeducationandcare.kinderm8.com.au/waitlist-form"
+    },
+    {
       "name": "Austral",
       "path": "/austral/",
       "logo": "src/images/logo-education-and-care-white.png",
